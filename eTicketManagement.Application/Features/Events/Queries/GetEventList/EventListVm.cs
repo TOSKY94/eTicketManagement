@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eTicketManagement.Application.Features.Events
+namespace eTicketManagement.Application.Features.Events.Queries.GetEventList
 {
     public class EventListVm
     {

@@ -1,16 +1,12 @@
 ﻿using AutoMapper;
 using eTicketManagement.Application.Contracts.Persistence;
+using eTicketManagement.Application.Features.Events.Queries.GetEventDetail;
 using eTicketManagement.Domain.Entities;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace eTicketManagement.Application.Features.Events
 {
-    public class GetEventDetailQueryHandler: IRequestHandler<GetEventDetailQuery, EventDetailVm>
+    public class GetEventDetailQueryHandler : IRequestHandler<GetEventDetailQuery, EventDetailVm>
     {
         private readonly IRepository<Event> _eventRepository;
         private readonly IRepository<Category> _categoryRepository;

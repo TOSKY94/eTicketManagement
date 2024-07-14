@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using eTicketManagement.Application.Contracts.Persistence;
+using eTicketManagement.Application.Features.Events.Queries.GetEventList;
 using eTicketManagement.Domain.Entities;
 using MediatR;
 using System;

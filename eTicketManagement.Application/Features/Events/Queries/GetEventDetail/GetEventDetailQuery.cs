@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eTicketManagement.Application.Features.Events
+namespace eTicketManagement.Application.Features.Events.Queries.GetEventDetail
 {
-    public class GetEventDetailQuery: IRequest<EventDetailVm>
+    public class GetEventDetailQuery : IRequest<EventDetailVm>
     {
         public Guid EventId { get; set; }
     }

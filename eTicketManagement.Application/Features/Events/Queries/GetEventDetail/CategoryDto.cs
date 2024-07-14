@@ -1,4 +1,4 @@
-﻿namespace eTicketManagement.Application.Features.Events
+﻿namespace eTicketManagement.Application.Features.Events.Queries.GetEventDetail
 {
     public class CategoryDto
     {

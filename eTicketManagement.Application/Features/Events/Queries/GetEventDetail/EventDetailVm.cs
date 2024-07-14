@@ -1,6 +1,6 @@
 ﻿using eTicketManagement.Domain.Entities;
 
-namespace eTicketManagement.Application.Features.Events
+namespace eTicketManagement.Application.Features.Events.Queries.GetEventDetail
 {
     public class EventDetailVm
     {
