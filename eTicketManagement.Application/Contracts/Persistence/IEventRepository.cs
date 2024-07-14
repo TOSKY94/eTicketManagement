@@ -2,8 +2,8 @@
 
 namespace eTicketManagement.Application.Contracts.Persistence
 {
-    public interface IEventRepository: IRepository<Event>
+    public interface IEventRepository : IRepository<Event>
     {
-
+        Task<bool> IsEventNameAndDateUnique(string eventName, DateTime date);
     }
 }
