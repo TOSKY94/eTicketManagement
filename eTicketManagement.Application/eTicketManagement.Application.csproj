@@ -16,4 +16,10 @@
     <ProjectReference Include="..\eTicketManagement.Domain\eTicketManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Categories\Commands\" />
+    <Folder Include="Features\Events\Commands\CreateEvent\" />
+    <Folder Include="Features\Orders\" />
+  </ItemGroup>
+
 </Project>
