@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using eTicketManagement.Application.Features.Categories.Queries.GetCategoriesListWithEvents;
 using eTicketManagement.Application.Features.Categories.Queries.GetCategoryList;
+using eTicketManagement.Application.Features.Events.Commands.CreateEvent;
+using eTicketManagement.Application.Features.Events.Commands.UpdateEvent;
 using eTicketManagement.Application.Features.Events.Queries.GetEventDetail;
 using eTicketManagement.Application.Features.Events.Queries.GetEventList;
 using eTicketManagement.Domain.Entities;
@@ -21,6 +23,9 @@ namespace eTicketManagement.Application.Profiles
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<Category, CategoryListVm>();
             CreateMap<Category, CategoryEventListVm>();
+            CreateMap<Event, CreateEventCommand>().ReverseMap();
+            CreateMap<Event, UpdateEventCommand>().ReverseMap();
+            CreateMap<Event, CategoryEventDto>().ReverseMap();
         }
     }
 }
