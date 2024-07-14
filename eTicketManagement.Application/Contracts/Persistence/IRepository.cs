@@ -4,7 +4,7 @@
     {
         Task<T> GetById(Guid id);
 
-        Task<IReadOnlyList<T>> ListAll<T>();
+        Task<IReadOnlyList<T>> ListAll();
 
         Task<T> Add(T  entity);
 
