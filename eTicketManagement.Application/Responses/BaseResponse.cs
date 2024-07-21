@@ -24,7 +24,7 @@ namespace eTicketManagement.Application.Responses
             Message = message;
         }
 
-
+//testing
 
         public bool Success { get; internal set; }
         public string Message { get; set; } =string.Empty;
